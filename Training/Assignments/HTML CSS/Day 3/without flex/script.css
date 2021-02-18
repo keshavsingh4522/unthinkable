@@ -1,0 +1,159 @@
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body
+{
+	background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaMg_1VTQjUdMDqFtjO50BHv64lP91J_VKFQ&usqp=CAU') no-repeat center top/cover;
+	background-attachment: fixed;
+}
+.main-box
+{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 10%;
+	padding-right: 10%;
+	
+	height: 150vh;
+}
+
+/*left box*/
+.left-box
+{
+	/*border: 1px solid black;*/
+	float: left;
+	width: 300px;
+	padding: 20px;
+}
+.l-box-1
+{
+	background-color: white;
+	height: 100%;
+	width: 250px;
+	padding:20px;
+	border-radius: 15px;
+}
+.l-box-1 h3
+{
+	color: #ACD18E;
+	font-size: 25px;
+	font-weight: normal;
+	text-align: center;
+	font-family: sans-serif;
+	letter-spacing: 2px;
+}
+.l-box-1 hr
+{
+	border: 1px solid #ACD18E;
+	width: 50px;
+	margin: 20px auto;
+}
+.l-box-1 p
+{
+	color: #306A97;
+	text-align: justify;
+}
+.l-box-1 button
+{
+	background-color: #105485;
+	color: white;
+	width: 150px;
+	height: 30px;
+	border: none;
+	border-radius: 20px;
+	outline: none;
+	margin-left: 10%;
+	margin-top: 20px;
+	cursor: pointer;
+}
+
+/*right box*/
+.right-box
+{
+	/*border: 1px solid black;*/
+	width: 65%;
+	float: left;
+}
+.r-box-1
+{
+	float: left;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-left: 20px;
+}
+h3{
+	text-align: center;
+}
+.card-1{
+	background-color: lightblue;
+	color: #fff;
+	padding-top: 15px;
+	padding-bottom: 7px;
+	font-size: 15px;
+	font-weight: lighter;
+	font-family: sans-serif;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+.card{
+	background: white;
+	padding: 20px;
+	margin-bottom: 15px;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+
+.btn-1,.btn-2
+{
+	margin: none;
+    color: #fff;
+    border: none;
+    font-size: 12px;
+    width: 3cm;
+    padding: 10px 10px;
+    border-radius: 20px;
+    cursor: pointer;
+    text-align: center;
+}
+img{
+	margin-left: 0%;
+}
+.btn-1
+{
+	background: #AED18D;
+	margin: 5px auto;
+}
+.btn-2
+{
+	background: #105485;
+}
+
+@media(max-width: 768px)
+{
+	.main-box{
+		height:450vh;
+	}
+	.left-box{
+		width: 100%;
+	}
+	.l-box-1{
+		margin: 0px auto;
+		width: 70%;
+	}
+	.l-box-1 button{
+		margin-left: 20%;
+	}
+	.right-box{
+		width: 100%;
+		padding: 40px;
+	}
+	.r-box-1{
+		clear:left;
+		margin: 0px 0px;
+		width: 300px;
+	}
+	img,.btn-1,.btn-2{
+		margin: 4px 65px;
+	}
+}

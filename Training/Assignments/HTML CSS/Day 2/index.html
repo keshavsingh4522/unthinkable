@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<title>Day 2 Task</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,inital-scale=1.0">
+	<style>
+		*{
+			box-shadow: 0;
+			margin: 0;
+			padding: 0;
+		}
+        body{
+            background: url(http://www.superwallpapers.in/hdwallpapers/landscape-hd-wallpaper-17.jpg) no-repeat center top/cover;
+            background-attachment: fixed;
+
+            font-family: 'Syne Mono' , monospace;
+            /*font-size: 20px;*/
+            line-height: 1.6cm;
+        }
+        h1,h2,h3,h4,h5,h6{
+        	float: left;
+        }
+  
+        p{
+            text-align: center;
+        }
+        table{
+        	/*border: 10px outset black;*/
+        	width: 1000px;
+        	height: auto;
+        	border-spacing: 26px;
+        	box-shadow: 0px 0px 22px #ddd;
+        	border-radius: 40px;
+        	color: white;
+        	background-color: rgba(0,0,0,0.9);
+        }
+        sup{
+        	color: red;
+        }
+        th{
+        	color: violet;
+        }
+        caption{
+        	color: purple;
+        }
+        fieldset{
+        	padding: 20px;
+        }
+        input[type="submit"]{
+        	float: right;
+        	border: none;
+        	background-color: green;
+        	color: white;
+        	width: 100px;
+        	height: 30px;
+        	border-radius: 10px;
+        	font-size: 20px;
+        	cursor: pointer;
+        }
+        .a1,.a2,.a3,.a4,.a5,.a6{
+        	/*list-style-image: url(1.jpg);*/
+
+        }
+        .header-hr{
+        	border: 1px solid green;
+        	width: 100%;
+        }
+        .body-hr{
+        	border: 1px solid rgba(256,0,0,1);
+        	width: 100%;
+        }
+    </style>
+</head>
+<body>
+<center>
+<table  cellspacing="0" cellpadding="0">
+	<caption>Day 2 task</caption>
+	<thead>
+		<tr>
+			<th>Action<hr class="header-hr"></th>
+			<th>Action result<hr class="header-hr"></th>
+
+		</tr>
+	<tbody>
+		<tr>
+			<td>h1-h6</td>
+			<td>
+				<h1>h1 </h1>
+				<h2>h2 </h2>
+				<h3>h3 </h3>
+				<h4>h4 </h4>
+				<h5>h5 </h5>
+				<h6>h6</h6>
+				<hr class="body-hr">
+			</td>
+		</tr>
+
+		<tr>
+			<td>p(paragraph) tag</td>
+			<td>
+				<p>Hello my name is Keshav Singh.currently i am doing intern in unthinkable.</p>
+				<hr class="body-hr">
+			</td>
+		</tr>
+
+		<tr>
+			<td>ul li</td>
+			<td>
+				<ul>
+					<li>Apple</li>
+					<li>Mango</li>
+					<li>Pineapple</li>
+					<li>Orange</li>
+				</ul>
+				<hr class="body-hr">
+			</td>
+		</tr>
+
+		<tr>
+			<td>ol li</td>
+			<td>
+				<ol style="list-style-type: decimal;" start="5">
+					<li>Apple</li>
+					<li>Mango</li>
+					<li>Pineapple</li>
+					<li>Orange</li>
+				</ol>
+				<hr class="body-hr">
+			</td>
+		</tr>
+
+		<tr>
+			<td>div</td>
+			<td>
+				<div>div is a block level element.</div>
+				<div>it is used to groupt the html elements.</div>
+				<hr class="body-hr">
+			</td>
+		</tr>
+
+		<tr>
+			<td>span</td>
+			<td>
+				<span>it is not a block level element like div. </span>
+				<span>it is an inline element. </span>
+				<hr class="body-hr">
+			</td>
+		</tr>
+
+		<tr>
+			<td>img</td>
+			<td>
+				<img src="https://avatars.githubusercontent.com/u/43788985?s=460&u=cf0b65c4fa048d4dbc69e1e575993afaa427cda1&v=4" >
+				<hr class="body-hr">
+			</td>
+		</tr>
+
+		<tr>
+			<td>a(anchor) tag</td>
+			<td>
+				<h4>Profile links</h4><br><br>
+				<ul>
+					<li class="a1"><a href="https://github.com/keshavsingh4522">Github</a></li>
+					<li class="a2"><a href="https://www.linkedin.com/in/keshavsingh4522/">Linkedin</a></li>
+					<li class="a3"><a href="https://www.facebook.com/keshavsingh4522/">Facebook</a></li>
+					<li class="a4"><a href="https://twitter.com/Keshavsingh4522">Twitter</a></li>
+					<li class="a5"><a href="https://www.instagram.com/keshavsingh3197/">Instagram</a></li>
+					<li class="a6"><a href="https://codepen.io/keshavsingh4522">Codepen</a></li>
+				</ul>
+				<hr class="body-hr">
+			</td>
+		</tr>
+
+		<tr>
+			<td>form and its elements</td>
+			<td>
+			<form>
+			<fieldset>
+				<legend>Basic form</legend>
+				<label for="fname">First name &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:<sup>*</sup> </label>
+				<input type="text" name="fname" id="fname" required><br>
+
+				<label for="lname">Last name &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:<sup>*</sup> </label>
+				<input type="text" name="lname" id="lname" required><br>
+
+				<span id="gender">Gender<sup>*</sup></span><br>
+				<input type="radio" id="male" name="gender" value="male">
+				<label for="male">male</label>
+
+				<input type="radio" id="female" name="gender" value="female">
+				<label for="female">female</label>
+
+				<input type="radio" id="other" name="gender" value="other">
+				<label for="other">other</label>
+				<br>
+
+				<label for="dob">DOB &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:<sup>*</sup> </label>
+				<input type="date" name="dob" id="dob" required><br>
+	
+
+				<label for="mobile">mobile number &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:<sup>*</sup> </label>
+				<input type="number" name="mobile" id="mobile" required><br>
+				
+				<input type="submit" value="submit">
+			</fieldset>
+			</form>	
+			<br>
+			<hr class="body-hr">
+			</td>
+		</tr>
+	</tbody>
+</table>
+</center>
+</body>
+</html>

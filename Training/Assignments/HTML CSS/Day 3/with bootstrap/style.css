@@ -1,0 +1,27 @@
+@charset "utf-8";
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body
+{
+	background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaMg_1VTQjUdMDqFtjO50BHv64lP91J_VKFQ&usqp=CAU') no-repeat center top/cover;
+	background-attachment: fixed;
+}
+
+.left-box
+{
+	width: 400px;
+}
+img{
+	width: 200px;
+}
+.card-1{
+	font-size: 15px;
+	font-weight: lighter;
+	font-family: sans-serif;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}

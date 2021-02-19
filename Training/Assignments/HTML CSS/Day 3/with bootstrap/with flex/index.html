@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<title>Assignmet of HTML</title>
+	<meta charset="utf-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body style="background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaMg_1VTQjUdMDqFtjO50BHv64lP91J_VKFQ&usqp=CAU') no-repeat center top/cover;
+    background-attachment: fixed;">
+<!-- main box/container -->
+<div class="d-flex justify-content-center p-5">
+	<!-- left big box -->
+	<div class="mr-4 w-50">
+		<div class="d-flex flex-column bg-light p-3 border rounded">
+			<h3 class="text-center text-success" style="letter-spacing: 2px;">Abonneren</h3>
+			<hr class="border border-success w-25 mx-auto">
+			<p class="text-justify text-primary">
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac lectus non purus gravida auctor nec sit amet ligula. Quisque ac ligula lobortis, dictum magna nec, auctor ipsum. Praesent volutpat, lacus vel elementum rhoncus, enim massa tempor risus, sit amet convallis elit mauris eget erat. Nulla pharetra convallis massa, nec tincidunt nisi ornare sit amet. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+			</p>
+            <div class="d-flex justify-content-center">
+                <button class="btn btn-primary">MORE INFO</button>
+            </div>
+		</div>
+	</div>
+
+
+	<!-- right big box -->
+	<div class="d-flex flex-wrap justify-content-center align-content-center" id="right-box">
+		<!-- <div class="mr-5 bg-light pb-3 rounded-bottom">
+			<div class="text-center bg-info text-light border rounded-top pt-2 pb-2">
+        		<h3>Nutrilon <br>Pronultrat</h3>
+        	</div>
+        	<div class="border border-0 d-flex flex-column align-content-center">
+        		<img src="https://user-images.githubusercontent.com/43788985/108549293-f4e22900-7312-11eb-8d1a-781a150af79e.png" alt="my pic" class="w-75 mx-auto">
+        		<button class="btn w-75 btn-success mx-auto mb-2">  KOPEN  </button>
+        		<button class="btn w-75 btn-primary mx-auto">ABONNEREN</button>
+        	</div>
+		</div>
+ -->
+	</div>
+</div>
+<script type="text/javascript">
+    var d = document.querySelector('#right-box');
+
+    //
+    var div_1 = document.createElement("DIV");
+    div_1.setAttribute("class",'mr-5 bg-light pb-3 rounded-bottom mb-2')
+
+    var div_2 = document.createElement("DIV");
+    div_2.setAttribute('class','text-center bg-info text-light border rounded-top pt-2 pb-2')
+    div_2.innerHTML = "<h3>Nutrilon <br>Pronultrat</h3>"
+
+    var div_3 = document.createElement("DIV")
+    div_3.setAttribute("class","border border-0 d-flex flex-column align-content-center")
+
+    var img = document.createElement("IMG")
+    img.setAttribute('src','https://user-images.githubusercontent.com/43788985/108549293-f4e22900-7312-11eb-8d1a-781a150af79e.png')
+    img.setAttribute('class','w-75 mx-auto')
+
+    var btn_1 = document.createElement("BUTTON")
+    btn_1.setAttribute('class','btn w-75 btn-success mx-auto mb-2')
+    btn_1.innerHTML = 'KOPEN'
+
+    var btn_2 = document.createElement("BUTTON")
+    btn_2.setAttribute('class','btn w-75 btn-primary mx-auto')
+    btn_2.innerHTML = 'ABONNEREN'
+
+    div_3.appendChild(img)
+    div_3.appendChild(btn_1)
+    div_3.appendChild(btn_2)
+
+
+    div_1.appendChild(div_2)
+    div_1.appendChild(div_3)
+
+    for(var i =0,copy;i<6;i++){
+        copy = div_1.cloneNode(true)
+        d.appendChild(copy)
+    }
+
+</script>
+</body>
+</html>

@@ -8,11 +8,15 @@
 				- [without flex](https://keshavsingh4522.github.io/unthinkable/Training/Assignments/HTML%20CSS//Day%203/without%20flex/index_2.html)
 				- [with flex](https://keshavsingh4522.github.io/unthinkable/Training/Assignments/HTML%20CSS//Day%203/with%20flex/)
 				- with bootstrap
-					- [with flex](https://keshavsingh4522.github.io/unthinkable/Training/Assignments/HTML%20CSS/Day%203/with%20bootstrap/)
+					- with flex
+						- [index.html](https://github.com/keshavsingh4522/unthinkable/tree/main/Training/Assignments/HTML%20CSS/Day%203/with%20bootstrap/with%20flex)
+						- [index_.html](https://github.com/keshavsingh4522/unthinkable/tree/main/Training/Assignments/HTML%20CSS/Day%203/with%20bootstrap/with%20flex/index_.html)
+					- [with grid](https://github.com/keshavsingh4522/unthinkable/tree/main/Training/Assignments/HTML%20CSS/Day%203/with%20bootstrap/with%20grid)
 		- [JS](https://github.com/keshavsingh4522/unthinkable/tree/main/Training/Assignments/JS/)
 
 
 ----
+```
 tree view
 
 .
@@ -50,3 +54,4 @@ tree view
                 ├── script_03.js
                 ├── script.js
                 └── witout new using prototype.png
+```
